@@ -82,8 +82,6 @@ const imageStructure = images.map(
 ).join('');
 imageContainer.innerHTML = imageStructure;
 
-const galleryLinc = document.querySelectorAll(".gallery-link");
-
 imageContainer.addEventListener('click', openModal);
 
 const modal = basicLightbox.create(`
